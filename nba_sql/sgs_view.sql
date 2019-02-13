@@ -10,7 +10,8 @@ CREATE OR REPLACE VIEW sgs_v AS
     t1.salary as SG1_SALARY,
     t2.salary as SG2_SALARY,
 	t1.proj_score + t2.proj_score AS SGS_PTS,
-	t1.salary + t2.salary AS SGS_SALARY
+	t1.salary + t2.salary AS SGS_SALARY,
+    t1.date
     FROM
         players_v AS t1
     CROSS JOIN players_v AS t2

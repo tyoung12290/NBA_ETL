@@ -1,4 +1,4 @@
-CREATE TABLE `lineup_player_detail` (
+CREATE TABLE `lineup_optimized_player_detail` (
   `lineup_optimized_id` int(11) NOT NULL,
   `player_detail_id` int(11) NOT NULL,
   KEY `lineup_optimzed_id` (`lineup_optimized_id`),
